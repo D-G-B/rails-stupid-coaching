@@ -6,11 +6,16 @@ html body {
 
 }
 
-html form input {
+input {
   background-color: #343A40;
 }
 
-html form input input{
+input:focus {
   background-color: #343A40;
+  outline:none;
 }
+
+// html form input input{
+//   background-color: #343A40;
+// }
 
